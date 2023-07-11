@@ -262,7 +262,6 @@ async def update_doc(
                 return BaseResponse(code=500, msg=file_status)
 
 
-
 async def local_doc_chat(
         knowledge_base_id: str = Body(..., description="Knowledge Base Name", example="kb1"),
         question: str = Body(..., description="Question", example="工伤保险是什么？"),

@@ -123,6 +123,7 @@ llm_model_dict = {
 
 # LLM 名称
 LLM_MODEL = "chatglm-6b"
+# LLM_MODEL = "fastchat-chatglm-6b"
 # 量化加载8bit 模型
 LOAD_IN_8BIT = False
 # Load the model with bfloat16 precision. Requires NVIDIA Ampere GPU.
@@ -162,7 +163,7 @@ SENTENCE_SIZE = 100
 CHUNK_SIZE = 250
 
 # 传入LLM的历史记录长度
-LLM_HISTORY_LEN = 3
+LLM_HISTORY_LEN = 10
 
 # 知识库检索时返回的匹配内容条数
 VECTOR_SEARCH_TOP_K = 5
