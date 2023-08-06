@@ -78,7 +78,7 @@ llm_model_dict = {
     "chatglm2-6b-32k": {
         "name": "chatglm2-6b-32k",
         "pretrained_model_name": "THUDM/chatglm2-6b-32k",
-        "local_model_path": None,
+        "local_model_path": "D:\model\chatglm2-6b-32k",
         "provides": "ChatGLMLLMChain"
     },
     # 注：chatglm2-cpp已在mac上测试通过，其他系统暂不支持
@@ -256,7 +256,7 @@ KB_ROOT_PATH = os.path.join(os.path.dirname(os.path.dirname(__file__)), "knowled
 # 基于上下文的prompt模版，请务必保留"{question}"和"{context}"
 PROMPT_TEMPLATE = """已知信息：
 {context} 
-现在您是客服，您的任务是解答问题。
+
 根据上述已知信息，简洁和专业的来回答用户的问题。如果无法从中得到答案，请说 “根据已知信息无法回答该问题” 或 “没有提供足够的相关信息”，不允许在答案中添加编造成分，答案请使用中文。 问题是：{question}"""
 
 # 缓存知识库数量,如果是ChatGLM2,ChatGLM2-int4,ChatGLM2-int8模型若检索效果不好可以调成’10’
@@ -291,7 +291,7 @@ flagging username: {FLAG_USER_NAME}
 
 # 是否开启跨域，默认为False，如果需要开启，请设置为True
 # is open cross domain
-OPEN_CROSS_DOMAIN = False
+OPEN_CROSS_DOMAIN = True
 
 # Bing 搜索必备变量
 # 使用 Bing 搜索需要使用 Bing Subscription Key,需要在azure port中申请试用bing search
