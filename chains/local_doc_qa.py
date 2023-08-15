@@ -237,6 +237,7 @@ class LocalDocQA:
         related_docs_with_score = vector_store.similarity_search_with_score(query, k=self.top_k)
         torch_gc()
         if len(related_docs_with_score) > 0:
+            print(related_docs_with_score)
             prompt = generate_prompt(related_docs_with_score, query)
         else:
             prompt = query
