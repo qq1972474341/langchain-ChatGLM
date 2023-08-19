@@ -3,7 +3,7 @@ import argparse
 import json
 import os
 import shutil
-from typing import List, Optional
+from typing import List, Optional, Any
 import urllib
 import asyncio
 import nltk
@@ -57,7 +57,7 @@ class ChatMessage(BaseModel):
     question: str = pydantic.Field(..., description="Question text")
     response: str = pydantic.Field(..., description="Response text")
     history: List[List[Optional[str]]] = pydantic.Field(..., description="History text")
-    source_documents: List[str] = pydantic.Field(
+    source_documents: List[Any] = pydantic.Field(
         ..., description="List of source documents and their scores"
     )
 
@@ -350,6 +350,7 @@ async def local_doc_chat(
                 {"content": doc.page_content, "score": doc.metadata['score']}
                 for inum, doc in enumerate(resp["source_documents"])
             ]
+            print(source_documents)
             return ChatMessage(
                 question=question,
                 response=resp["result"],
