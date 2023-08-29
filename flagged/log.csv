@@ -1,0 +1,89 @@
+component 0,component 1,component 2,请选择使用模式,flag,username,timestamp
+你叫什么名字,D:\Github\langchain-ChatGLM\knowledge_base\新建知识库\vector_store,D:\Github\langchain-ChatGLM\flagged\component 2\tmpggd2qzk5.json,LLM 对话,,be4e6c765d5341838069c47424412553,2023-07-10 21:33:08.314244
+写一下C++冒泡排序算法,D:\Github\langchain-ChatGLM\knowledge_base\新建知识库\vector_store,D:\Github\langchain-ChatGLM\flagged\component 2\tmpz4me3mxi.json,知识库问答,,be4e6c765d5341838069c47424412553,2023-07-10 23:22:19.844266
+骂人的话,D:\Github\langchain-ChatGLM\knowledge_base\新建知识库\vector_store,D:\Github\langchain-ChatGLM\flagged\component 2\tmpuyugtd0_.json,知识库问答,,be4e6c765d5341838069c47424412553,2023-07-10 23:53:15.207324
+教训人的话,D:\Github\langchain-ChatGLM\knowledge_base\新建知识库\vector_store,D:\Github\langchain-ChatGLM\flagged\component 2\tmpvwozzhuy.json,知识库问答,,be4e6c765d5341838069c47424412553,2023-07-10 23:53:28.793463
+帮我批评一个叫海棠的人,D:\Github\langchain-ChatGLM\knowledge_base\新建知识库\vector_store,D:\Github\langchain-ChatGLM\flagged\component 2\tmpcgglt_0b.json,知识库问答,,be4e6c765d5341838069c47424412553,2023-07-10 23:53:39.492241
+哪有辅助,D:\Github\langchain-ChatGLM\knowledge_base\kyy\vector_store,D:\Github\langchain-ChatGLM\flagged\component 2\tmpx53hx_6_.json,知识库问答,,e2c024e51b004eeda0f9edafde10c6f4,2023-07-12 17:16:44.691439
+2.在哪里下插件,D:\Github\langchain-ChatGLM\knowledge_base\kyy\vector_store,D:\Github\langchain-ChatGLM\flagged\component 2\tmp3y1ym4fq.json,知识库问答,,e2c024e51b004eeda0f9edafde10c6f4,2023-07-12 17:16:56.769795
+去哪里下载插件,D:\Github\langchain-ChatGLM\knowledge_base\kyy\vector_store,D:\Github\langchain-ChatGLM\flagged\component 2\tmp9irenp3j.json,知识库问答,,e2c024e51b004eeda0f9edafde10c6f4,2023-07-12 17:17:10.884513
+怎么下载插件,D:\Github\langchain-ChatGLM\knowledge_base\samples\vector_store,D:\Github\langchain-ChatGLM\flagged\component 2\tmpcv506b6t.json,知识库问答,,e2c024e51b004eeda0f9edafde10c6f4,2023-07-12 17:19:56.034779
+如何下载插件,D:\Github\langchain-ChatGLM\knowledge_base\samples\vector_store,D:\Github\langchain-ChatGLM\flagged\component 2\tmpnnxvz34_.json,知识库问答,,e2c024e51b004eeda0f9edafde10c6f4,2023-07-12 17:20:44.037346
+"""在上述代码中，我们首先通过 defineExpose 将子组件中的 myVariable 暴露给父组件。然后，在父组件中引用子组件，并创建一个共享的 ref 变量 sharedVariable。
+当点击 ""Update Value"" 按钮时，会调用父组件中的 updateValue 方法来修改共享变量的值。由于子组件和父组件都引用了相同的变量对象，所以修改将反映在两个地方。""   提取这句话的关键字",D:\Github\langchain-ChatGLM\knowledge_base\新建知识库\vector_store,D:\Github\langchain-ChatGLM\flagged\component 2\tmpnjumi6si.json,LLM 对话,,9ce839e4f5154a37ad089e8aa3e224c9,2023-08-02 16:27:00.316722
+"""在上述代码中，我们首先通过 defineExpose 将子组件中的 myVariable 暴露给父组件。然后，在父组件中引用子组件，并创建一个共享的 ref 变量 sharedVariable。
+当点击 ""Update Value"" 按钮时，会调用父组件中的 updateValue 方法来修改共享变量的值。由于子组件和父组件都引用了相同的变量对象，所以修改将反映在两个地方。"" 提取这句话的标签并以字符串数组格式返回",D:\Github\langchain-ChatGLM\knowledge_base\新建知识库\vector_store,D:\Github\langchain-ChatGLM\flagged\component 2\tmpyf8gh26o.json,LLM 对话,,9ce839e4f5154a37ad089e8aa3e224c9,2023-08-02 16:27:37.062454
+"""首先进入苹果云手机，然后打开右下角WiFi图标再点击剪贴版，接着打开桌面插件安装，复制链接和密码，开始下载"" 提取这句话的标签",D:\Github\langchain-ChatGLM\knowledge_base\新建知识库\vector_store,D:\Github\langchain-ChatGLM\flagged\component 2\tmp4cb76m9a.json,LLM 对话,,9ce839e4f5154a37ad089e8aa3e224c9,2023-08-02 16:28:26.240106
+"""首先进入苹果云手机，然后打开右下角WiFi图标再点击剪贴版，接着打开桌面插件安装，复制链接和密码，开始下载"" 提取这句话的标签(不超过三个字符)",D:\Github\langchain-ChatGLM\knowledge_base\新建知识库\vector_store,D:\Github\langchain-ChatGLM\flagged\component 2\tmp_z7spsw7.json,LLM 对话,,9ce839e4f5154a37ad089e8aa3e224c9,2023-08-02 16:28:48.561100
+"哪有辅助？我们只卖云机，不卖辅助哦，需要辅助您可通过淘宝或百度了解是否有您需要的辅助
+从上文中，提取出 2个 关键字",D:\Github\langchain-ChatGLM\knowledge_base\新建知识库\vector_store,D:\Github\langchain-ChatGLM\flagged\component 2\tmpz8hxhgdp.json,LLM 对话,,7e75c8e3d4d04d3facb819f37dfc479d,2023-08-02 21:45:40.140618
+"哪有辅助？我们只卖云机，不卖辅助哦，需要辅助您可通过淘宝或百度了解是否有您需要的辅助
+从上文中，提取出 2个 关键字,并以字符串数组格式输出",D:\Github\langchain-ChatGLM\knowledge_base\新建知识库\vector_store,D:\Github\langchain-ChatGLM\flagged\component 2\tmpq3d325_a.json,LLM 对话,,7e75c8e3d4d04d3facb819f37dfc479d,2023-08-02 21:45:55.573143
+关键字以字符串数组输出,D:\Github\langchain-ChatGLM\knowledge_base\新建知识库\vector_store,D:\Github\langchain-ChatGLM\flagged\component 2\tmpxv6wi1e_.json,LLM 对话,,7e75c8e3d4d04d3facb819f37dfc479d,2023-08-02 21:46:20.347314
+"哪有辅助？我们只卖云机，不卖辅助哦，需要辅助您可通过淘宝或百度了解是否有您需要的辅助
+从上文中，提取出 2个 关键字,并以字符串数组格式输出",D:\Github\langchain-ChatGLM\knowledge_base\新建知识库\vector_store,D:\Github\langchain-ChatGLM\flagged\component 2\tmppnker5bp.json,LLM 对话,,7e75c8e3d4d04d3facb819f37dfc479d,2023-08-02 21:46:46.120562
+"哪有辅助？我们只卖云机，不卖辅助哦，需要辅助您可通过淘宝或百度了解是否有您需要的辅助
+从上文中，提取出 3个 关键字,并以字符串数组格式输出",D:\Github\langchain-ChatGLM\knowledge_base\新建知识库\vector_store,D:\Github\langchain-ChatGLM\flagged\component 2\tmpy48mrvaq.json,LLM 对话,,7e75c8e3d4d04d3facb819f37dfc479d,2023-08-02 21:46:52.981157
+"哪有辅助？我们只卖云机，不卖辅助哦，需要辅助您可通过淘宝或百度了解是否有您需要的辅助
+从上文中，提取出 4个 关键字,并以字符串数组格式输出",D:\Github\langchain-ChatGLM\knowledge_base\新建知识库\vector_store,D:\Github\langchain-ChatGLM\flagged\component 2\tmp0g9sp7t0.json,LLM 对话,,7e75c8e3d4d04d3facb819f37dfc479d,2023-08-02 21:47:00.957539
+"    哪有辅助？我们只卖云机，不卖辅助哦，需要辅助您可通过淘宝或百度了解是否有您需要的辅助
+
+     从上文中，提取出 1个 关键字,并以字符串数组格式输出",D:\Github\langchain-ChatGLM\knowledge_base\新建知识库\vector_store,D:\Github\langchain-ChatGLM\flagged\component 2\tmpqbxzeaqb.json,LLM 对话,,b303a7462b974bc6aea5ce9d611d8eea,2023-08-02 21:55:26.703931
+"    哪有辅助？我们只卖云机，不卖辅助哦，需要辅助您可通过淘宝或百度了解是否有您需要的辅助
+
+     从上文中，提取出 2个 关键字,并以字符串数组格式输出",D:\Github\langchain-ChatGLM\knowledge_base\新建知识库\vector_store,D:\Github\langchain-ChatGLM\flagged\component 2\tmp6zurpp_k.json,LLM 对话,,b303a7462b974bc6aea5ce9d611d8eea,2023-08-02 21:55:35.889918
+"    哪有辅助？我们只卖云机，不卖辅助哦，需要辅助您可通过淘宝或百度了解是否有您需要的辅助
+
+     从上文中，提取出 3个 关键字,并以字符串数组格式输出",D:\Github\langchain-ChatGLM\knowledge_base\新建知识库\vector_store,D:\Github\langchain-ChatGLM\flagged\component 2\tmpon5idvzb.json,LLM 对话,,b303a7462b974bc6aea5ce9d611d8eea,2023-08-02 21:55:43.398175
+关键字用字符串数组输出,D:\Github\langchain-ChatGLM\knowledge_base\新建知识库\vector_store,D:\Github\langchain-ChatGLM\flagged\component 2\tmpo5p1pp64.json,LLM 对话,,b303a7462b974bc6aea5ce9d611d8eea,2023-08-02 21:56:09.832862
+"    哪有辅助？我们只卖云机，不卖辅助哦，需要辅助您可通过淘宝或百度了解是否有您需要的辅助
+
+     从上文中，提取出 1个 关键字,并以字符串数组格式输出",D:\Github\langchain-ChatGLM\knowledge_base\新建知识库\vector_store,D:\Github\langchain-ChatGLM\flagged\component 2\tmpjqva5pgp.json,LLM 对话,,b303a7462b974bc6aea5ce9d611d8eea,2023-08-02 21:56:12.236498
+"    哪有辅助？我们只卖云机，不卖辅助哦，需要辅助您可通过淘宝或百度了解是否有您需要的辅助
+
+     从上文中，提取出 3个 关键字,并以字符串数组格式输出",D:\Github\langchain-ChatGLM\knowledge_base\新建知识库\vector_store,D:\Github\langchain-ChatGLM\flagged\component 2\tmpimzj344r.json,LLM 对话,,b303a7462b974bc6aea5ce9d611d8eea,2023-08-02 21:56:19.869706
+用字符串数组格式输出,D:\Github\langchain-ChatGLM\knowledge_base\新建知识库\vector_store,D:\Github\langchain-ChatGLM\flagged\component 2\tmp9cb8ppbv.json,LLM 对话,,b303a7462b974bc6aea5ce9d611d8eea,2023-08-02 21:56:35.713371
+"    哪有辅助？我们只卖云机，不卖辅助哦，需要辅助您可通过淘宝或百度了解是否有您需要的辅助
+
+     从上文中，提取出 3个 关键字,并以字符串数组格式输出",D:\Github\langchain-ChatGLM\knowledge_base\新建知识库\vector_store,D:\Github\langchain-ChatGLM\flagged\component 2\tmpw3unl9wc.json,LLM 对话,,b303a7462b974bc6aea5ce9d611d8eea,2023-08-02 21:56:42.245916
+"    哪有辅助？我们只卖云机，不卖辅助哦，需要辅助您可通过淘宝或百度了解是否有您需要的辅助
+
+     从上文中，提取出 1个 关键字,用字符串数组格式输出",D:\Github\langchain-ChatGLM\knowledge_base\新建知识库\vector_store,D:\Github\langchain-ChatGLM\flagged\component 2\tmpkt3ssih1.json,LLM 对话,,b303a7462b974bc6aea5ce9d611d8eea,2023-08-02 21:56:50.831966
+"    哪有辅助？我们只卖云机，不卖辅助哦，需要辅助您可通过淘宝或百度了解是否有您需要的辅助
+
+     从上文中，提取出 3个 关键字,并以字符串数组格式输出",D:\Github\langchain-ChatGLM\knowledge_base\新建知识库\vector_store,D:\Github\langchain-ChatGLM\flagged\component 2\tmpr5qlz4ra.json,LLM 对话,,b303a7462b974bc6aea5ce9d611d8eea,2023-08-02 21:56:58.581971
+"哪有辅助？我们只卖云机，不卖辅助哦，需要辅助您可通过淘宝或百度了解是否有您需要的辅助
+
+从上文中，提取出 3个 关键字,并以字符串数组格式输出",D:\Github\langchain-ChatGLM\knowledge_base\新建知识库\vector_store,D:\Github\langchain-ChatGLM\flagged\component 2\tmpbrhb6ako.json,LLM 对话,,b303a7462b974bc6aea5ce9d611d8eea,2023-08-02 21:57:26.952935
+"哪有辅助？我们只卖云机，不卖辅助哦，需要辅助您可通过淘宝或百度了解是否有您需要的辅助
+
+
+从上文中，提取出 3个 关键字,并以字符串数组格式输出",D:\Github\langchain-ChatGLM\knowledge_base\新建知识库\vector_store,D:\Github\langchain-ChatGLM\flagged\component 2\tmp5emt8erp.json,LLM 对话,,b303a7462b974bc6aea5ce9d611d8eea,2023-08-02 21:57:34.523312
+"哪有辅助？我们只卖云机，不卖辅助哦，需要辅助您可通过淘宝或百度了解是否有您需要的辅助
+从上文中，提取出 2个 关键字,并以字符串数组格式输出",D:\Github\langchain-ChatGLM\knowledge_base\新建知识库\vector_store,D:\Github\langchain-ChatGLM\flagged\component 2\tmplbkvfk0m.json,LLM 对话,,dcdfc28dc9f949beb081870c6b091bfa,2023-08-02 22:09:09.198534
+用字符串数组输出,D:\Github\langchain-ChatGLM\knowledge_base\新建知识库\vector_store,D:\Github\langchain-ChatGLM\flagged\component 2\tmp1au_r0cx.json,LLM 对话,,dcdfc28dc9f949beb081870c6b091bfa,2023-08-02 22:09:49.241598
+"哪有辅助？我们只卖云机，不卖辅助哦，需要辅助您可通过淘宝或百度了解是否有您需要的辅助
+从上文中，提取出 2个 关键字",D:\Github\langchain-ChatGLM\knowledge_base\新建知识库\vector_store,D:\Github\langchain-ChatGLM\flagged\component 2\tmplhgpg8bi.json,LLM 对话,,dcdfc28dc9f949beb081870c6b091bfa,2023-08-02 22:13:57.782903
+"哪有辅助？我们只卖云机，不卖辅助哦，需要辅助您可通过淘宝或百度了解是否有您需要的辅助
+从上文中，提取出 2个 关键字，用字符串数组的格式输出",D:\Github\langchain-ChatGLM\knowledge_base\新建知识库\vector_store,D:\Github\langchain-ChatGLM\flagged\component 2\tmptif2pfmx.json,LLM 对话,,dcdfc28dc9f949beb081870c6b091bfa,2023-08-02 22:14:28.006900
+"哪有辅助？我们只卖云机，不卖辅助哦，需要辅助您可通过淘宝或百度了解是否有您需要的辅助
+从上文中，提取出 2个 关键字，用字符串数组的格式输出",D:\Github\langchain-ChatGLM\knowledge_base\新建知识库\vector_store,D:\Github\langchain-ChatGLM\flagged\component 2\tmpwoukwfx8.json,LLM 对话,,dcdfc28dc9f949beb081870c6b091bfa,2023-08-02 22:14:38.226260
+"哪有辅助？我们只卖云机，不卖辅助哦，需要辅助您可通过淘宝或百度了解是否有您需要的辅助
+从上文中，提取出 2个 关键字，用字符串数组的格式输出",D:\Github\langchain-ChatGLM\knowledge_base\新建知识库\vector_store,D:\Github\langchain-ChatGLM\flagged\component 2\tmp3cl5gx5k.json,知识库问答,,dcdfc28dc9f949beb081870c6b091bfa,2023-08-02 22:14:43.463742
+用字符串数组的格式输出,D:\Github\langchain-ChatGLM\knowledge_base\新建知识库\vector_store,D:\Github\langchain-ChatGLM\flagged\component 2\tmpnjwhdg61.json,知识库问答,,dcdfc28dc9f949beb081870c6b091bfa,2023-08-02 22:14:48.322797
+"哪有辅助？我们只卖云机，不卖辅助哦，需要辅助您可通过淘宝或百度了解是否有您需要的辅助
+从上文中，提取出 2个 关键字，用字符串数组的格式输出",D:\Github\langchain-ChatGLM\knowledge_base\新建知识库\vector_store,D:\Github\langchain-ChatGLM\flagged\component 2\tmprrwj3592.json,知识库问答,,dcdfc28dc9f949beb081870c6b091bfa,2023-08-02 22:14:53.761820
+"哪有辅助？我们只卖云机，不卖辅助哦，需要辅助您可通过淘宝或百度了解是否有您需要的辅助
+从上文中，提取出 2个 关键字，用字符串数组的格式输出",D:\Github\langchain-ChatGLM\knowledge_base\新建知识库\vector_store,D:\Github\langchain-ChatGLM\flagged\component 2\tmpvequ01g6.json,知识库问答,,bdb89783337746b286ef1b73a170eb7a,2023-08-02 22:52:39.173358
+用字符串数组的格式输出,D:\Github\langchain-ChatGLM\knowledge_base\新建知识库\vector_store,D:\Github\langchain-ChatGLM\flagged\component 2\tmp3x5d5xin.json,知识库问答,,bdb89783337746b286ef1b73a170eb7a,2023-08-02 22:52:49.007000
+"哪有辅助？我们只卖云机，不卖辅助哦，需要辅助您可通过淘宝或百度了解是否有您需要的辅助
+从上文中，提取出 3个 关键字，用字符串数组的格式输出",D:\Github\langchain-ChatGLM\knowledge_base\新建知识库\vector_store,D:\Github\langchain-ChatGLM\flagged\component 2\tmplbs3q2o4.json,知识库问答,,bdb89783337746b286ef1b73a170eb7a,2023-08-02 22:53:55.705115
+用字符串数组格式输出,D:\Github\langchain-ChatGLM\knowledge_base\新建知识库\vector_store,D:\Github\langchain-ChatGLM\flagged\component 2\tmp96sxas2e.json,知识库问答,,bdb89783337746b286ef1b73a170eb7a,2023-08-02 22:54:04.353243
+"在哪里下插件
+首先进入苹果云手机，然后打开右下角WiFi图标再点击剪贴版，接着打开桌面插件安装，复制链接和密码，开始下载。
+其次根据提示联系快云游客服，发送您的链接和密码。
+最后快云游管理员审核过后，重新复制一次就可以下载了。
+如果以上方式无法解决您的问题，请联系客服，针对您的问题，进行讲解处理
+从上文中,提取出2 个关键字,用字符串数组的格式输出 例如:['关键字']",D:\Github\langchain-ChatGLM\knowledge_base\新建知识库\vector_store,D:\Github\langchain-ChatGLM\flagged\component 2\tmpw422lr8m.json,LLM 对话,,ad9f4157de0d411b8c8250084003165a,2023-08-03 00:56:42.319283
+用字符串数组输出,D:\Github\langchain-ChatGLM\knowledge_base\新建知识库\vector_store,D:\Github\langchain-ChatGLM\flagged\component 2\tmpepgmuwxu.json,LLM 对话,,ad9f4157de0d411b8c8250084003165a,2023-08-03 00:57:00.694719
+用字符串数组格式输出,D:\Github\langchain-ChatGLM\knowledge_base\新建知识库\vector_store,D:\Github\langchain-ChatGLM\flagged\component 2\tmps0b63g9_.json,LLM 对话,,ad9f4157de0d411b8c8250084003165a,2023-08-03 00:57:08.067951
