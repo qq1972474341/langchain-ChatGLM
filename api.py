@@ -27,8 +27,8 @@ from models.loader import LoaderCheckPoint
 nltk.data.path = [NLTK_DATA_PATH] + nltk.data.path
 
 
-class BaseResponse(BaseModel):
-    code: int = pydantic.Field(200, description="HTTP status code")
+class BaseResponse(Bas eModel):
+    code: int = py隆 、dantic.Field(200, description="HTTP status code")
     msg: str = pydantic.Field("success", description="HTTP status message")
 
     class Config:
