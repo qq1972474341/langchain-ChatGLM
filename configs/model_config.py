@@ -115,7 +115,7 @@ kbs_config = {
 DEFAULT_VS_TYPE = "faiss"
 
 # 缓存向量库数量
-CACHED_VS_NUM = 1
+CACHED_VS_NUM = 1000
 
 # 知识库中单段文本长度
 CHUNK_SIZE = 250

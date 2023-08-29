@@ -376,11 +376,14 @@ async def bing_search_chat(
             query=question, chat_history=history, streaming=True
     ):
         pass
+    # source_documents = [
+    #     f"""出处 [{inum + 1}] [{doc.metadata["source"]}]({doc.metadata["source"]}) \n\n{doc.page_content}\n\n"""
+    #     for inum, doc in enumerate(resp["source_documents"])
+    # ]
     source_documents = [
-        f"""出处 [{inum + 1}] [{doc.metadata["source"]}]({doc.metadata["source"]}) \n\n{doc.page_content}\n\n"""
+        f"""{doc.page_content}"""
         for inum, doc in enumerate(resp["source_documents"])
     ]
-
     return ChatMessage(
         question=question,
         response=resp["result"],
@@ -466,12 +469,16 @@ async def stream_chat(websocket: WebSocket):
             await websocket.send_text(resp["result"][last_print_len:])
             last_print_len = len(resp["result"])
 
+        # source_documents = [
+        #     f"""出处 [{inum + 1}] {os.path.split(doc.metadata['source'])[-1]}：\n\n{doc.page_content}\n\n"""
+        #     f"""相关度：{doc.metadata['score']}\n\n"""
+        #     for inum, doc in enumerate(resp["source_documents"])
+        # ]
         source_documents = [
             f"""出处 [{inum + 1}] {os.path.split(doc.metadata['source'])[-1]}：\n\n{doc.page_content}\n\n"""
             f"""相关度：{doc.metadata['score']}\n\n"""
             for inum, doc in enumerate(resp["source_documents"])
         ]
-
         await websocket.send_text(
             json.dumps(
                 {

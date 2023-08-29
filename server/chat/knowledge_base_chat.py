@@ -21,7 +21,9 @@ from server.knowledge_base.kb_doc_api import search_docs
 def knowledge_base_chat(query: str = Body(..., description="用户输入", examples=["你好"]),
                         knowledge_base_name: str = Body(..., description="知识库名称", examples=["samples"]),
                         top_k: int = Body(VECTOR_SEARCH_TOP_K, description="匹配向量数"),
-                        score_threshold: float = Body(SCORE_THRESHOLD, description="知识库匹配相关度阈值，取值范围在0-1之间，SCORE越小，相关度越高，取到1相当于不筛选，建议设置在0.5左右", ge=0, le=1),
+                        score_threshold: float = Body(SCORE_THRESHOLD,
+                                                      description="知识库匹配相关度阈值，取值范围在0-1之间，SCORE越小，相关度越高，取到1相当于不筛选，建议设置在0.5左右",
+                                                      ge=0, le=1),
                         history: List[History] = Body([],
                                                       description="历史对话",
                                                       examples=[[
@@ -76,9 +78,10 @@ def knowledge_base_chat(query: str = Body(..., description="用户输入", examp
             if local_doc_url:
                 url = "file://" + doc.metadata["source"]
             else:
-                parameters = urlencode({"knowledge_base_name": knowledge_base_name, "file_name":filename})
+                parameters = urlencode({"knowledge_base_name": knowledge_base_name, "file_name": filename})
                 url = f"{request.base_url}knowledge_base/download_doc?" + parameters
-            text = f"""出处 [{inum + 1}] [{filename}]({url}) \n\n{doc.page_content}\n\n"""
+            # text = f"""出处 [{inum + 1}] [{filename}]({url}) \n\n{doc.page_content}\n\n"""
+            text = {"content": doc.page_content};
             source_documents.append(text)
 
         if stream:

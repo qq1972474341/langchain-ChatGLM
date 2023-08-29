@@ -109,11 +109,14 @@ def search_engine_chat(query: str = Body(..., description="用户输入", exampl
             callback.done),
         )
 
+        # source_documents = [
+        #     f"""出处 [{inum + 1}] [{doc.metadata["source"]}]({doc.metadata["source"]}) \n\n{doc.page_content}\n\n"""
+        #     for inum, doc in enumerate(docs)
+        # ]
         source_documents = [
-            f"""出处 [{inum + 1}] [{doc.metadata["source"]}]({doc.metadata["source"]}) \n\n{doc.page_content}\n\n"""
+            f"""{doc.page_content}"""
             for inum, doc in enumerate(docs)
         ]
-
         if stream:
             async for token in callback.aiter():
                 # Use server-sent-events to stream the response
